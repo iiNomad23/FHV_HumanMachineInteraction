@@ -1,0 +1,211 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "\"My Zelda Cane\"\n\nStrategies used by blind players to play visual centric digital games",
+      "id": 1,
+      "attr": {
+        "position": [
+          -582,
+          -331,
+          1
+        ],
+        "style": {
+          "width": 215
+        }
+      },
+      "ideas": {
+        "12": {
+          "title": "Data analysis / Findings",
+          "id": 33,
+          "ideas": {
+            "1": {
+              "title": "2256 unique channels and 7562 videos accorss these channels",
+              "id": 34,
+              "ideas": {
+                "1": {
+                  "title": "2D, TP and FP -> including 40 different games and 31 different franchises",
+                  "id": 37
+                },
+                "2": {
+                  "title": "Players playing alone or with other people sharing control through co-pilot",
+                  "id": 39
+                }
+              },
+              "attr": {
+                "position": [
+                  196,
+                  -276,
+                  1
+                ]
+              }
+            },
+            "2": {
+              "title": "What strategies do they use/leverage to play games with inaccessible gameplay?",
+              "id": 8,
+              "ideas": {
+                "1": {
+                  "title": "Often trial and error",
+                  "id": 40
+                },
+                "2": {
+                  "title": "external tools",
+                  "id": 41
+                },
+                "3": {
+                  "title": "Grasping the soundscape",
+                  "id": 42,
+                  "ideas": {
+                    "1": {
+                      "title": "extract information about environment and objects through rich soundscapes",
+                      "id": 43
+                    }
+                  }
+                },
+                "4": {
+                  "title": "spatial audio",
+                  "id": 44,
+                  "ideas": {
+                    "1": {
+                      "title": "precieve position and direction of elements",
+                      "id": 45
+                    }
+                  }
+                },
+                "5": {
+                  "title": "Sound treatment: footstep sounds on different terrains",
+                  "id": 46
+                }
+              }
+            },
+            "3": {
+              "title": "What barriers  do blind people face?",
+              "id": 4,
+              "ideas": {
+                "1": {
+                  "title": "How to navigate",
+                  "id": 9,
+                  "ideas": {
+                    "1": {
+                      "title": "Mobility training and mental mapping",
+                      "id": 31
+                    }
+                  }
+                },
+                "2": {
+                  "title": "How to interact with virtual object",
+                  "id": 10
+                },
+                "3": {
+                  "title": "How to react to events",
+                  "id": 11
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              365,
+              -29,
+              9
+            ]
+          }
+        },
+        "-1": {
+          "title": "Playing blind",
+          "id": 23,
+          "ideas": {
+            "1": {
+              "title": "First mainstream game (The last of us: Part 2) which features more than 60 accessiblity features fr blind people",
+              "id": 18,
+              "ideas": {
+                "1": {
+                  "title": "Navigation assistance\nand auditory representation of objects and enemies",
+                  "id": 19
+                },
+                "2": {
+                  "title": "Some features inspired by Brandon Cole playing RE6",
+                  "id": 22
+                }
+              }
+            },
+            "2": {
+              "title": "Gamer/Streamer/Youtuber",
+              "id": 20,
+              "ideas": {
+                "1": {
+                  "title": "Brandon Cole",
+                  "id": 21,
+                  "attr": {
+                    "position": [
+                      48,
+                      73,
+                      1
+                    ]
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "Helper products from microsoft",
+              "id": 12,
+              "ideas": {
+                "1": {
+                  "title": "Adaptive Controller",
+                  "id": 13
+                },
+                "2": {
+                  "title": "Co-pilot",
+                  "id": 14
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              411,
+              -103,
+              10
+            ]
+          }
+        },
+        "-2": {
+          "title": "Blind-accessible game design",
+          "id": 24,
+          "ideas": {
+            "1": {
+              "title": "Audio based gameplay",
+              "id": 25,
+              "ideas": {
+                "1": {
+                  "title": "Earcons",
+                  "id": 26
+                },
+                "2": {
+                  "title": "Musical conventions",
+                  "id": 27
+                },
+                "3": {
+                  "title": "auditory icons i.e. audio effects",
+                  "id": 28
+                },
+                "4": {
+                  "title": "Game: PowerUp",
+                  "id": 29,
+                  "attr": {}
+                }
+              }
+            },
+            "3": {
+              "title": "Universal game design",
+              "id": 30
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "\"My Zelda Cane\"\n\nStrategies used by blind players to play visual centric digital games",
+  "links": []
+}
