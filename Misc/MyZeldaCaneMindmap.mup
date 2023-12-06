@@ -17,7 +17,7 @@
       },
       "ideas": {
         "12": {
-          "title": "Data analysis / Findings",
+          "title": "What strategies do they use/leverage to play games with inaccessible gameplay?\n\nData analysis / Findings\n",
           "id": 33,
           "ideas": {
             "1": {
@@ -35,51 +35,268 @@
               },
               "attr": {
                 "position": [
-                  196,
-                  -276,
-                  1
+                  214,
+                  -584.9999694824219,
+                  7
                 ]
               }
             },
             "2": {
-              "title": "What strategies do they use/leverage to play games with inaccessible gameplay?",
-              "id": 8,
+              "title": "ingenious strategies",
+              "id": 49,
               "ideas": {
                 "1": {
-                  "title": "Often trial and error",
-                  "id": 40
+                  "title": "external tools",
+                  "id": 41,
+                  "attr": {}
                 },
                 "2": {
-                  "title": "external tools",
-                  "id": 41
+                  "title": "Often trial and error",
+                  "id": 40,
+                  "attr": {}
                 },
                 "3": {
-                  "title": "Grasping the soundscape",
-                  "id": 42,
+                  "title": "extract information about environment and objects through rich soundscapes",
+                  "id": 43,
+                  "attr": {}
+                }
+              },
+              "attr": {
+                "position": [
+                  303.0234375,
+                  -279.90367126464844,
+                  14
+                ]
+              }
+            },
+            "4": {
+              "title": "Summary of fndings",
+              "id": 54,
+              "ideas": {
+                "1": {
+                  "title": "T1. Understanding the surroundings.",
+                  "id": 55,
                   "ideas": {
                     "1": {
-                      "title": "extract information about environment and objects through rich soundscapes",
-                      "id": 43
+                      "title": "spatial audio",
+                      "id": 44,
+                      "ideas": {
+                        "1": {
+                          "title": "precieve position and direction of elements",
+                          "id": 45
+                        }
+                      },
+                      "attr": {}
+                    },
+                    "2": {
+                      "title": "Sound treatment: footstep sounds on different terrains or sounds in general in different locations e.g. in a house",
+                      "id": 46,
+                      "ideas": {
+                        "1": {
+                          "title": "Sometimes its impossible to distinguish because different object have the same sounds",
+                          "id": 53
+                        }
+                      },
+                      "attr": {}
+                    },
+                    "3": {
+                      "title": "Grasping the soundscape",
+                      "id": 42,
+                      "ideas": {
+                        "0.5": {
+                          "title": "online videos (e.g., walkthroughs) and sighted\nassistance",
+                          "id": 47,
+                          "attr": {}
+                        }
+                      },
+                      "attr": {}
+                    },
+                    "4": {
+                      "title": "Forming a mental map by bumping",
+                      "id": 63,
+                      "attr": {
+                        "position": [
+                          179,
+                          53.656341552734375,
+                          1
+                        ]
+                      }
+                    },
+                    "5": {
+                      "title": "Feeling through action\ne.g. in Zelda they use the sword to which they calls \"my Zelda cane\" to hit obstacels and feel their shape and material",
+                      "id": 64
                     }
+                  },
+                  "attr": {
+                    "position": [
+                      88.0078125,
+                      -300.90113830566406,
+                      3
+                    ]
+                  }
+                },
+                "2": {
+                  "title": "T2. Wayfnding in virtual environments",
+                  "id": 56,
+                  "ideas": {
+                    "1": {
+                      "title": "Blind players often navigate by following a mental map",
+                      "id": 66
+                    },
+                    "2": {
+                      "title": "Ambiance, but prominent sounds tend to lead the player from the path",
+                      "id": 67
+                    },
+                    "3": {
+                      "title": "Pressing constantly a key to know the avatar’s coordinates",
+                      "id": 68
+                    },
+                    "4": {
+                      "title": "Mobile/Authoring landmarks",
+                      "id": 69
+                    },
+                    "5": {
+                      "title": "Reorientation through respawning or quick saves and loads",
+                      "id": 70
+                    }
+                  },
+                  "attr": {
+                    "position": [
+                      584.0625,
+                      -235.671875,
+                      41
+                    ]
+                  }
+                },
+                "3": {
+                  "title": "T3. Dealing with perspective",
+                  "id": 57,
+                  "ideas": {
+                    "1": {
+                      "title": "Easy in 2D games but hard in 3D games",
+                      "id": 71
+                    },
+                    "2": {
+                      "title": "Its hard to aim vertically because of the sound not rotating around you",
+                      "id": 72
+                    },
+                    "3": {
+                      "title": "Aim assistance can help but have shortcomings",
+                      "id": 73
+                    }
+                  },
+                  "attr": {
+                    "position": [
+                      212.01739501953125,
+                      -117.17961120605469,
+                      29
+                    ]
                   }
                 },
                 "4": {
-                  "title": "spatial audio",
-                  "id": 44,
+                  "title": "T4. Interacting with the world",
+                  "id": 58,
+                  "attr": {
+                    "position": [
+                      571.984375,
+                      29.7109375,
+                      38
+                    ]
+                  },
                   "ideas": {
                     "1": {
-                      "title": "precieve position and direction of elements",
-                      "id": 45
+                      "title": "repeatedly press the input to check for available actions",
+                      "id": 81
+                    },
+                    "2": {
+                      "title": "In TLoU auditory cues are provided",
+                      "id": 82
+                    },
+                    "3": {
+                      "title": "Aligning with object ingame such as opening small chests",
+                      "id": 83
                     }
                   }
                 },
                 "5": {
-                  "title": "Sound treatment: footstep sounds on different terrains",
-                  "id": 46
+                  "title": "T5. Preparation, demand & cognitive load",
+                  "id": 59,
+                  "attr": {
+                    "position": [
+                      206.06082153320312,
+                      171.24403381347656,
+                      45
+                    ]
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Players have to memorize and\nkeep track of what happens in the game",
+                      "id": 78
+                    },
+                    "2": {
+                      "title": "It is common for blind players\nto look for guidance by watching other online videos and reading\nguides",
+                      "id": 79
+                    },
+                    "3": {
+                      "title": "players create and maintain a mental model of the\nenvironment",
+                      "id": 80
+                    }
+                  }
+                },
+                "6": {
+                  "title": "T6. Automation & difculty",
+                  "id": 60,
+                  "attr": {
+                    "position": [
+                      596.1649475097656,
+                      413.84815979003906,
+                      44
+                    ]
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Reducing the challenge  by accessibil\u0002ity, difculty, and other settings",
+                      "id": 84,
+                      "ideas": {}
+                    },
+                    "2": {
+                      "title": "Aim-assist/Auto-steer",
+                      "id": 86,
+                      "attr": {}
+                    }
+                  }
+                },
+                "7": {
+                  "title": "T7. Playing with others",
+                  "id": 61,
+                  "attr": {
+                    "position": [
+                      182.0859375,
+                      462.453125,
+                      43
+                    ]
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Playing with friends using co-pilot or live assistance from friends",
+                      "id": 87
+                    },
+                    "2": {
+                      "title": "Custom modes in games where only melee weapons are allowed",
+                      "id": 88
+                    }
+                  }
                 }
+              },
+              "attr": {
+                "position": [
+                  261.140625,
+                  466.36195373535156,
+                  15
+                ]
               }
             },
-            "3": {
+            "1.5": {
               "title": "What barriers  do blind people face?",
               "id": 4,
               "ideas": {
@@ -101,14 +318,21 @@
                   "title": "How to react to events",
                   "id": 11
                 }
+              },
+              "attr": {
+                "position": [
+                  519.0390625,
+                  -432.83335876464844,
+                  13
+                ]
               }
             }
           },
           "attr": {
             "position": [
-              365,
-              -29,
-              9
+              270,
+              -21.916641235351562,
+              11
             ]
           }
         },
@@ -164,9 +388,9 @@
           },
           "attr": {
             "position": [
-              411,
-              -103,
-              10
+              305,
+              -132.96875,
+              14
             ]
           }
         },
@@ -201,8 +425,87 @@
               "title": "Universal game design",
               "id": 30
             }
+          },
+          "attr": {
+            "position": [
+              249,
+              261.03125,
+              13
+            ]
+          }
+        },
+        "-12": {
+          "title": "Discussion",
+          "id": 89,
+          "attr": {
+            "position": [
+              182.98263549804688,
+              505.7274932861328,
+              15
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Our results portray how game design\nis currently failing to meet blind players’ needs",
+              "id": 90
+            },
+            "2": {
+              "title": "In the future, designers should\nconsider how to support and integrate blind people’s current orien\u0002tation and mobility strategies",
+              "id": 91,
+              "ideas": {
+                "1": {
+                  "title": "TLoU is a great example with 60 accessiblity features fr blind people",
+                  "id": 93
+                }
+              }
+            },
+            "3": {
+              "title": "players’ comments suggest that navigating\nin games with a top-down perspective resulted in more reliable\nmental models of the environment",
+              "id": 92
+            }
+          }
+        },
+        "-22": {
+          "title": "Conclusion",
+          "id": 94,
+          "attr": {
+            "position": [
+              253.98953247070312,
+              720.3663482666016,
+              16
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Inclusive design is crucial and more so as gaming has become one of\nthe most popular entertainment mediums and continues to grow.",
+              "id": 95,
+              "attr": {
+                "position": [
+                  90.9722900390625,
+                  -63.6527099609375,
+                  1
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "The discussed strategies show potential new ways for designing games to be accessible while maintaining the core gameplay\nexperience.",
+                  "id": 96
+                }
+              }
+            }
           }
         }
+      }
+    },
+    "2": {
+      "title": "AI assistant/Navigation aid/Assistant tools\nfor blind people playing games",
+      "id": 65,
+      "attr": {
+        "position": [
+          -555,
+          -1111,
+          1
+        ]
       }
     }
   },
