@@ -1,0 +1,102 @@
+\documentclass[sigconf,natbib=false]{acmart}
+
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+	\providecommand\BibTeX{{%
+			Bib\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+%\setcopyright{acmlicensed}
+%\copyrightyear{2018}
+%\acmYear{2018}
+%\acmDOI{XXXXXXX.XXXXXXX}
+
+%% Bibliography style
+\RequirePackage[datamodel=acmdatamodel,style=acmnumeric]{biblatex}
+
+%% Declare bibliography sources
+\addbibresource{reference.bib}
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+	
+	%%
+	%% The "title" command has an optional parameter,
+	%% allowing the author to define a "short title" to be used in page headers.
+	\title{Assistant tools for blind people playing games}
+	
+	\author{Marco Prescher}
+	%\authornote{This is a author note!}
+	\affiliation{%
+		\institution{FHV University of Applied Sciences}
+		\streetaddress{Hochschulstraße 1}
+		\city{Dornbirn}
+		\state{Vorarlberg}
+		\country{Austria}}
+		\postcode{6850}
+	\email{marco.prescher@students.fhv.at}
+	
+	%%
+	%% By default, the full list of authors will be used in the page
+	%% headers. Often, this list is too long, and will overlap
+	%% other information printed in the page headers. This command allows
+	%% the author to define a more concise list
+	%% of authors' names for this purpose.
+	\renewcommand{\shortauthors}{Trovato et al.}
+	
+	%%
+	%% The abstract is a short summary of the work to be presented in the
+	%% article.
+	%TODO
+	\begin{abstract}
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+		malesuada, quam in pulvinar varius, metus nunc fermentum urna, id
+		sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum
+		vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et
+		lacinia dolor. Integer ultricies commodo sem nec semper.
+	\end{abstract}
+	
+	\ccsdesc[500]{Applied computing~Computer games}
+	\ccsdesc[500]{Human-centered computing~Accessibility}
+	\ccsdesc[500]{Human computer interaction (HCI)}
+	
+	%%
+	%% Keywords. The author(s) should pick words that accurately describe
+	%% the work being presented. Separate the keywords with commas.
+	\keywords{blind, accessibility, gaming, digital games, navigation, tools, AI}
+	
+	%TODO?
+	%\received{20 February 2007}
+	%\received[revised]{12 March 2009}
+	%\received[accepted]{5 June 2009}
+	
+	%%
+	%% This command processes the author and affiliation and title
+	%% information and builds the first part of the formatted document.
+	\maketitle
+	
+	\section{Introduction}
+	%TODO
+	Short summary of zelda cane article and what i want to expore more!
+	
+	\section{Related Work}
+	%TODO
+	Maybe short summary of the related works i gatherd (State of the art)
+
+	\section{Conclusion}
+	%TODO
+	\cite{westland_cost_2002}
+	
+	
+	%%
+	%% Print the bibliography
+	%%
+	\printbibliography
+	
+\end{document}
