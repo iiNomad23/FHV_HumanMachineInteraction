@@ -48,7 +48,7 @@
 	%% other information printed in the page headers. This command allows
 	%% the author to define a more concise list
 	%% of authors' names for this purpose.
-	\renewcommand{\shortauthors}{Trovato et al.}
+	\renewcommand{\shortauthors}{Marco Prescher}
 	
 	%%
 	%% The abstract is a short summary of the work to be presented in the
@@ -85,12 +85,12 @@
 	Today's accessible games for blind people are mainly games which are directly developed for them (\textcite{goncalves_my_2023}).
 	While these games are enjoyable, mainstream games are a serious challenge for blind people because they consist of complex environments, mechanics and interactions with \emph{Non-Player Character} (NPC) players or even real players in \emph{Player versus player} (PvP) games.
 	
-	One big step forward making mainstream games more accessible for blind people was the game \emph{The Last of Us Part II} (TLOU2) \cite{playstation_last_nodate, playstation_last_nodate-1}. 
+	One big step forward making mainstream games more accessible for blind people was the game \emph{The Last of Us Part II} (TLOU2) \cite{playstation_last_2020, playstation_last_2020-1}. 
 	According to \textcite{leite_extended_2021} the game company \emph{Naughty Dog} implemented more than 60 accessibility features and is considered as the most accessible game ever produced.
 	Additionally, \textcite{dale_last_2024} described that the game can be played all the way through with audio cues and navigation aids.
 	It includes preset accessibility options for common disabilities like hearing or vision impairments. 
 	It also introduces accessibility menus when the game is first started, making it easier for players with disabilities to adjust settings.
-	To top that, \emph{Naughty Dog} released a remastered version of TLOU2 in 2024 with a reworked \emph{Cinematic Audio Descriptions} feature \cite{playstation_last_nodate-2}.
+	To top that, \emph{Naughty Dog} released a remastered version of TLOU2 in 2024 with a reworked \emph{Cinematic Audio Descriptions} feature \cite{playstation_last_2024}.
 	
 	In this work we go deeper into different and potentially new accessibility features as well as what assistant tools blind players use and how software companies implement them.
 	This raises two relevant research questions (RQ):
@@ -101,20 +101,52 @@
 	\end{itemize}
 	
 	\section{The Problem}
-	%TODO
-	Summary of findings in "MyZeldaCane" and what current problems with visual centric games are (for blind people).
-	Lack of new tools and features as well as costs for standardized the development cycle to implement those.
+	Blind players encounter many different barriers when playing visual-centric digital games which often rely greatly on graphical interfaces and visual cues. 
+	To top that, the collection of those mainstream games have different perspectives such as top-down, first-person, and third-person views, where all three views give the player unique challenges in navigating game environment, understanding game objectives and interacting with in-game elements like players or objects.
+	Building on that, the authors of \textcite{goncalves_my_2023} have categorized seven themes and identified unresolved barriers (see \autoref{fig:seven-themes}) which still represent a great challenge for both players and developers.
+	
+	\begin{figure*}[ht]
+		\centering
+		\includegraphics[scale=0.6,width=\textwidth]{assets/seven-themes.png}
+		\caption{Seven themes and respective unresolved barriers (Source: \textcite{goncalves_my_2023})}
+		\label{fig:seven-themes}
+	\end{figure*}
+
+	\autoref{fig:seven-themes} gives a great overview what accessibility features and assistant tools are still missing and in which direction the gaming industry should focus.
 	
 	\section{My Idea}
-	%TODO
-	Discuss your proposed idea for addressing the problem identified in the previous section. This could involve developing new assistant tools or enhancing existing accessibility features for blind people playing visual-centric digital games. Outline the key components of your idea and how it aims to improve the gaming experience for blind players. Consider addressing the following points:
+	The gaming industry came a long way from no accessibility features and assistant tools at all to implementing more than 60 accessibility features in one game \cite{playstation_last_2020}.
+	According to research papers \cite{goncalves_my_2023, grammenos_designing_2009, grammenos_game_2008, araujo_mobile_2017} some of the most important accessibility features for blind people in visual-centric games include:
 	
-	The rationale behind your idea and why it is important.
-	How your idea builds upon existing tools and features.
-	Any innovative approaches or technologies you plan to implement.
-	The potential impact of your idea on blind gamers and the gaming industry as a whole.
+	\begin{itemize}
+		\item Audio Cues and Descriptions
+		\item Text-to-Speech (TTS) and Voiceover
+		\item Navigation Aids and Wayfinding Tools
+		\item Comprehensive Audio Design
+		\item Customizable Controls and Inputs
+		\item Tactile Feedback and Controller Design
+	\end{itemize}
+    
+    Some of these have already been implemented to a certain extent in some games, but as \autoref{fig:seven-themes} notes, there are still problems.
+    Especially when it comes to the environment, pathfinding, perspective and interacting with the world, blind players face major challenges, which according to \textcite{goncalves_my_2023} could mean they stop playing these games because they simply can not find the right way to play.
+    
+    To address the environment and pathfinding problems, one new technology was introduced in 2018 by \textcite{andrade_echo-house_2018} to use echolocation to explore a virtual environment which could drastically improve navigation in it.
+    As for perspective (camera) and interacting with the world, hardware solutions like haptic feedback or AI assistant tools could be a solution when developed and integration further.
+    Whereas the haptic feedback of e.g. PS5-Controllers could indicate when players aim too high or too low and the AI-Tool could provide the player with enhanced audio descriptions how to interact with the world.
+    
+    In summary, it can be said that the game industry already takes into account the most important accessibility features, yet most modern visually-centric digital games are still a major challenge for blind players.
+    In the following section we will delve deeper into the listed features above, their problems and possible solutions, as well as how to improve the overall experience of blind people.
 	
 	\section{The Details}
+	
+	Subsections for the details section
+	\begin{itemize}
+		\item Universally accessible game design
+		\item Problems implementing accessibility features in digital games
+		\item Cost effective methods to implement accessibility features
+		\item Improve exploring virtual environments using echolocation
+	\end{itemize}
+
 	%TODO
 	New tools for blind players and newest Accessibility Features software companies using/developing.
 	
