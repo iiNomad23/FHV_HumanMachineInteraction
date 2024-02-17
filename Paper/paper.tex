@@ -71,7 +71,6 @@
 	%% the work being presented. Separate the keywords with commas.
 	\keywords{blind, accessibility, gaming, digital games, navigation, tools, AI}
 	
-	%TODO?
 	%\received{20 February 2007}
 	%\received[revised]{12 March 2009}
 	%\received[accepted]{5 June 2009}
@@ -85,14 +84,7 @@
 	Today's accessible games for blind people are mainly games which are directly developed for them (\textcite{goncalves_my_2023}).
 	While these games are enjoyable, mainstream games are a serious challenge for blind people because they consist of complex environments, mechanics and interactions with \emph{Non-Player Character} (NPC) players or even real players in \emph{Player versus player} (PvP) games.
 	
-	One big step forward making mainstream games more accessible for blind people was the game \emph{The Last of Us Part II} (TLOU2) \cite{playstation_last_2020, playstation_last_2020-1}. 
-	According to \textcite{leite_extended_2021} the game company \emph{Naughty Dog} implemented more than 60 accessibility features and is considered as the most accessible game ever produced.
-	Additionally, \textcite{dale_last_2024} described that the game can be played all the way through with audio cues and navigation aids.
-	It includes preset accessibility options for common disabilities like hearing or vision impairments. 
-	It also introduces accessibility menus when the game is first started, making it easier for players with disabilities to adjust settings.
-	To top that, \emph{Naughty Dog} released a remastered version of TLOU2 in 2024 with a reworked \emph{Cinematic Audio Descriptions} feature \cite{playstation_last_2024}.
-	
-	Implementing accessibility features is much needed in digital games to ensure that everyone can enjoy gaming.
+	Implementing accessibility features is much needed in digital games to ensure that everyone, including people with disabilities can enjoy gaming.
 	However, game developers in general face various problems in the process of developing games, some of them are:
 	
 	\begin{itemize}
@@ -103,7 +95,8 @@
 		\item Standardization
 	\end{itemize}
 	
-	In this study, we explore different and innovative accessibility features and tools, including haptic feedback which is a major technical challenge, design compromises and their associated problems and the need for standardization.
+	So, the main idea of this paper is to give a broad insight of different and innovative accessibility features and tools, including haptic feedback and its ways to improve game experience which is a major technical challenge.
+	Additionally, this study explores design compromises and their associated problems as well as the need for standardization in the gaming industry developing games.
 	This raises two relevant research questions (RQ):
 	
 	\begin{itemize}
@@ -111,11 +104,23 @@
 		\item RQ1: Which innovative accessibility features and tools can enhance the gaming experience for blind players?
 		\item RQ2: In what ways can haptic feedback enhancements improve the game experience for blind players?
 	\end{itemize}
+
+	%TODO
+	Contributions...
+
+	\subsection{Motivation}
+	One big step forward making mainstream games more accessible for blind people was the game \emph{The Last of Us Part II} (TLOU2) \cite{playstation_last_2020, playstation_last_2020-1}. 
+	According to \textcite{leite_extended_2021} the game company \emph{Naughty Dog} implemented more than 60 accessibility features and is considered as the most accessible game ever produced.
+	Additionally, \textcite{dale_last_2024} described that the game can be played all the way through with audio cues and navigation aids.
+	It includes preset accessibility options for common disabilities like hearing or vision impairments. 
+	It also introduces accessibility menus when the game is first started, making it easier for players with disabilities to adjust settings.
+	To top that, \emph{Naughty Dog} released a remastered version of TLOU2 in 2024 with a reworked \emph{Cinematic Audio Descriptions} feature \cite{playstation_last_2024}.
 	
 	\section{The Problem}
 	Blind players encounter many different barriers when playing visual-centric digital games which often rely greatly on graphical interfaces and visual cues. 
 	To top that, the collection of those mainstream games have different perspectives such as top-down, first-person, and third-person views, where all three views give the player unique challenges in navigating game environment, understanding game objectives and interacting with in-game elements like players or objects.
 	Building on that, the authors of \textcite{goncalves_my_2023} have categorized seven themes and identified unresolved barriers (see \autoref{fig:seven-themes}) which still represent a great challenge for both players and developers.
+	%TODO rewrite
 	
 	\begin{figure*}[ht]
 		\centering
@@ -145,25 +150,107 @@
     
     To address the environment and pathfinding problems, one new technology was introduced in 2018 by \textcite{andrade_echo-house_2018} to use echolocation to explore a virtual environment which could drastically improve navigation in it.
     As for perspective (camera) and interacting with the world, hardware solutions like haptic feedback or AI assistant tools could be a solution when developed and integration further.
-    Whereas the haptic feedback \cite{bello_haptics_2016} of for example PS5-Controllers \cite{akyaman_anticipated_2021, chen_gamepad_2024} could indicate when players aim too high or too low while the AI-Tool could provide the player with enhanced audio descriptions and how to interact with the world.
+    Whereas the haptic feedback \cite{bello_haptics_2016} of for example PS5-Controllers \cite{akyaman_anticipated_2021, chen_gamepad_2024} could indicate when players aim too high or too low while an AI tool could provide the player with enhanced audio descriptions and how to interact with the world.
     
     In summary, it can be said that the game industry already takes into account the most important accessibility features, yet most modern visually-centric digital games are still a major challenge for blind players.
     In the following section we will delve deeper into some of the listed features above, their problems and possible solutions, as well as how to improve the overall experience of blind people.
 	
+	\section{Related Work}
+	As digital games continuous to evolve making them more complex to play, accessibility becomes increasingly more important.
+	This section provides a deeper insight in related works that contributed to the understanding of how important accessibility in visual-centric digital games is.
+	
+	\subsection{Themes of accessibility}
+	The paper \textcite{goncalves_my_2023} explores the strategies blind players use to play visual-centric mainstream games.
+	It analyzes over 70 hours of YouTube content from blind players to identify the strategies and methods they use to navigate and interact within games environments.
+	
+	The study highlights that blind players often rely on audio cues to understand and navigate game environments.
+	They use repetitive actions like bumping into a wall to create a mental map of the environment.
+	Players also try to create landmarks by interacting with the game world, for example, by leaving enemies behind to know in which area they are at the moment.
+	This approach helps to navigate in game environments but also scare of new blind players due to frustration if the player become disorientated.
+	
+	The result of their findings are seven themes focusing on describing strategies blind players created and adopted: (See \autoref{fig:seven-themes})
+	
+	\begin{itemize}
+		\setlength\itemsep{0.5em}
+		\item Understanding the surroundings
+		\item Wayfnding in virtual environments
+		\item Dealing with perspective
+		\item Interacting with the world
+		\item Preparation, demand and cognitive load
+		\item Automation and difficulty
+		\item Playing with others
+	\end{itemize}
+
+	Additionally, \autoref{fig:seven-themes} shows us the existing barriers mainstream games have.
+	
+	The paper also acknowledges the efforts of some game developers to make new and existing games more accessible to blind players.
+	This approach by developers is essential for reducing the accessibility gap in the upcoming years of game development.
+	
+	\subsection{Inaccessibility in Games}
+	In 2008 \textcite{grammenos_game_2008} developed a game called \emph{Game Over!}, which is the first universally inaccessible game, created as an educational tool to teach game developers about accessibility guidelines.
+	This approach aimed to raise awareness and motivate game developers to make their games accessible for everyone.
+	
+	The developed game \emph{Game Over!} has 21 levels implemented, each one violating a specific game accessibility guideline to frustrate but also educate by directly showing the developer what impact their design decisions have. 
+	Some of the guidelines are:
+	
+	\begin{itemize}
+		\setlength\itemsep{0.5em}
+		\item Require complex key combinations
+		\item Rapidly changing control schemes
+		\item Presenting information in inaccessible formats
+	\end{itemize}
+
+ 	Collected feedback from developers and players through surveys and public discussions indicate that the game raises awareness and educates about accessibility as intended.
+ 	It also suggested for the game to include direct access to additional information about each violated guideline, such as how specific accessibility can improve the game experience for disabled players.
+ 	
+ 	The feedback also highlighted to add more levels to cover a wider range of accessibility guidelines which would add the potential to adapt the concept and further improve it as well as to highlight the importance of game design in digital games.
+	
+	\subsection{Navigate a virtual environment using echolocation}
+	In 2018 \textcite{andrade_echo-house_2018} investigates the use of echolocation in a game environment to help blind players to navigate in them.
+	This approach aimed to investigate whether it is possible to create a \emph{virtual environment} (VE) where players can simulate echolocation to navigate and understand complex scenes within that VE.
+	
+	Therefore, they developed a VE with Unity 5.6 and the SteamAudio plug-in.
+	This VE basically represents a three level house called \emph{Echo-House}, where users can navigate using sounds such as mouth-clicks, claps and footsteps, which generate echoes to receive information about the environment.
+	Each level had a goal players needed to reach to get to the next level of the house (See \autoref{fig:echo-house-layout}).
+	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.5]{assets/echo-house-layout.png}
+		\caption{Layout of the three levels (Source: \textcite{andrade_echo-house_2018})}
+		\label{fig:echo-house-layout}
+	\end{figure}
+
+	The evaluation consists of a 45-minute playing session and a interview.
+	They found out that the echolocation provided the player with an improved sense of space within the VE.
+	However, challenges in orientation and mobility were still present which indicates the need of further support.
+	
+	The paper highlighted the limitation of the study such as the small sample size and the need for further research to validate their findings.
+	Nevertheless, this paper gives important insight of what can be achieved with echolocation to help blind players.
+	
+	
 	\section{The Details}
 	In this section, we delve into enhancing accessibility in digital games for blind players.
 	Firstly, we aim to explore previously mentioned developing problems, from universally accessible game design affecting diverse needs followed by technical challenges.
-	Secondly, we propose enhancements of already existing accessibility features in the theme environment navigating.
-	Lastly, we explore various types of feedback which are essential in enhancing of accessibility in digital games and focus on haptic feedback as well as further possibilities to use that to improve the experience in digital games for blind players.
+	Secondly, we explore various types of feedback which are essential in enhancing of accessibility in digital games and focus on haptic feedback as well as further possibilities to use that to improve the experience in digital games for blind players.
+	Lastly, we propose enhancements of already existing accessibility features and tools.
 	
-	\subsection{Universally accessible game design}
-	%TODO
-	Test
+	\subsection{Universally Accessible Game Design}
+	In recent years, the awareness of accessible game design has been growing tremendously.
+	According to \emph{World Health Organization} \cite{world_health_organization_international_2004}, one out of ten persons has disabilities which often results in limitations in hearing, memory, vision or motor functions.
 	
+	Digital games are getting more demanding in terms of the limitations we described before and this is where \emph{Universally Accessible Game Design} (UAGD) comes into play.
+	Through the implementation of UAGD, players with disabilities can benefit from features such as support for alternative input devices, including switches, eye-tracking systems, and mouth-operated controllers, which as a result can drastically enhance the game experience.
+	One of the key aspects is the implementation of settings that allow players to customize the features they need to improve their game experience.
 	
-	\subsection{Navigate a virtual environment using echolocation}
-	%TODO
-	Test
+	We found a promising user-centered approach in the paper \textcite{grammenos_unified_2007} to apply UAGD in the development cycle of games.
+	The basic steps are summarized in \autoref{fig:universal-game-design-approach}, whereas an elaboration of these is provided in \textcite{grammenos_unified_2007}.
+	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.5]{assets/universal-game-design-approach.png}
+		\caption{Applying UAGD (Source: \textcite{grammenos_unified_2007})}
+		\label{fig:universal-game-design-approach}
+	\end{figure}
 	
 	\subsection{Assistive haptic feedback}
 	%TODO
@@ -171,17 +258,11 @@
 	
 	\subsection{Further possibilities to use haptic feedback}
 	%TODO
-	Test
+	Combination with echolocation?
 	
-	\section{Related Work}
-	Accessibility in visual-centric games is getting more important and the game industry have to keep up implementing them.
-	The research paper \textcite{goncalves_my_2023} has shown us that there are still major challenges to improve and further enhance existing accessibility features in various themes.
-	In 2008 \textcite{grammenos_game_2008} developed a game called \emph{Game Over!}, which is the first universally inaccessible game showing people how it is if a game is unplayable.
-	Additionally, in 2018 \textcite{andrade_echo-house_2018} described a new method to explore a virtual environment by using echolocation.
-	This section provides a deeper insight into these studies, how they approached the topic and what results they achieved.
-	
-	\subsection{Echolocation in games}
-	Test
+	\subsection{Ways to improve existing accessibility features and tools}
+	%TODO
+	AI-tools?
 	
 	\section{Conclusions and Further Work}
 	%TODO
