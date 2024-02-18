@@ -80,7 +80,7 @@
 	%% information and builds the first part of the formatted document.
 	\maketitle
 	
-	\section{Introduction}
+	\section{Introduction} \label{sec:introduction}
 	Today's accessible games for blind people are mainly games which are directly developed for them (\textcite{goncalves_my_2023}).
 	While these games are enjoyable, mainstream games are a serious challenge for blind people because they consist of complex environments, mechanics and interactions with \emph{Non-Player Character} (NPC) players or even real players in \emph{Player versus player} (PvP) games.
 	
@@ -95,18 +95,17 @@
 		\item Standardization
 	\end{itemize}
 	
-	So, the main idea of this paper is to give a broad insight of different and innovative accessibility features and tools, including haptic feedback and its ways to improve game experience which is a major technical challenge.
-	Additionally, this study explores design compromises and their associated problems as well as the need for standardization in the gaming industry developing games.
-	This raises two relevant research questions (RQ):
+	So, the main idea of this paper is to give a broad insight of \emph{Universally Accessible Game Design} (UAGD) which addresses the previously mentions developing problems.
+	Additionally, this study explores different and innovative accessibility features and tools, including haptic feedback and its ways to improve game experience which is a major technical challenge.
+	
+	This raises following relevant research questions (RQ) which contributes to people playing visual-centric digital games:
 	
 	\begin{itemize}
 		\setlength\itemsep{0.5em}
-		\item RQ1: Which innovative accessibility features and tools can enhance the gaming experience for blind players?
-		\item RQ2: In what ways can haptic feedback enhancements improve the game experience for blind players?
+		\item RQ1: How can UAGD improve the development of games with regard to accessibility?
+		\item RQ2: Which innovative accessibility features and tools can enhance the gaming experience for blind players?
+		\item RQ3: In what ways can haptic feedback enhancements improve the game experience for blind players?
 	\end{itemize}
-
-	%TODO
-	Contributions...
 
 	\subsection{Motivation}
 	One big step forward making mainstream games more accessible for blind people was the game \emph{The Last of Us Part II} (TLOU2) \cite{playstation_last_2020, playstation_last_2020-1}. 
@@ -116,7 +115,7 @@
 	It also introduces accessibility menus when the game is first started, making it easier for players with disabilities to adjust settings.
 	To top that, \emph{Naughty Dog} released a remastered version of TLOU2 in 2024 with a reworked \emph{Cinematic Audio Descriptions} feature \cite{playstation_last_2024}.
 	
-	\section{The Problem}
+	\section{The Problem} \label{sec:theProblem}
 	Blind players encounter many different barriers when playing visual-centric digital games which often rely greatly on graphical interfaces and visual cues. 
 	To top that, the collection of those mainstream games have different perspectives such as top-down, first-person, and third-person views, where all three views give the player unique challenges in navigating game environment, understanding game objectives and interacting with in-game elements like players or objects.
 	Building on that, the authors of \textcite{goncalves_my_2023} have categorized seven themes and identified unresolved barriers (see \autoref{fig:seven-themes}) which still represent a great challenge for both players and developers.
@@ -131,7 +130,7 @@
 
 	\autoref{fig:seven-themes} gives a great overview what accessibility features and assistant tools are still missing and in which direction the gaming industry should focus.
 	
-	\section{My Idea}
+	\section{My Idea} \label{sec:myIdea}
 	The gaming industry came a long way from no accessibility features and assistant tools at all to implementing more than 60 accessibility features in one game \cite{playstation_last_2020}.
 	According to research papers \cite{goncalves_my_2023, grammenos_designing_2009, grammenos_game_2008, araujo_mobile_2017} some of the most important accessibility features for blind people in visual-centric games include:
 	
@@ -155,7 +154,7 @@
     In summary, it can be said that the game industry already takes into account the most important accessibility features, yet most modern visual-centric digital games are still a major challenge for blind players.
     In the following section we will delve deeper into some of the listed features above, their problems and possible solutions, as well as how to improve the overall experience of blind people.
 	
-	\section{Related Work}
+	\section{Related Work} \label{sec:relatedWork}
 	As digital games continuous to evolve making them more complex to play, accessibility becomes increasingly more important.
 	This section provides a deeper insight into related work that has contributed to the understanding of the importance of accessibility in visual-centric digital games.
 	
@@ -227,9 +226,9 @@
 	The paper highlighted the limitation of the study such as the small sample size and the need for further research to validate their findings.
 	Nevertheless, this work provides an important insight into the possibilities of using echolocation to help blind players.
 	
-	\section{The Details}
+	\section{The Details} \label{sec:theDetails}
 	In this section, we delve into enhancing accessibility in digital games for blind players.
-	Firstly, we aim to explore previously mentioned developing problems, from universally accessible game design affecting diverse needs followed by technical challenges.
+	Firstly, we aim to explore previously mentioned developing problems in \autoref{sec:introduction}, from diverse needs and technical challenges followed by design compromises and standardization efforts.
 	Secondly, we explore various types of feedback which are essential in enhancing of accessibility in digital games and focus on haptic feedback as well as further possibilities to use that to improve the experience in digital games for blind players.
 	Lastly, we propose enhancements of already existing accessibility features and tools.
 	
@@ -237,11 +236,14 @@
 	In recent years, the awareness of accessible game design has been growing tremendously.
 	According to \emph{World Health Organization} \cite{world_health_organization_international_2004}, one out of ten persons has disabilities which often results in limitations in hearing, memory, vision or motor functions.
 	
-	Digital games are getting more demanding in terms of the limitations we described before and this is where \emph{Universally Accessible Game Design} (UAGD) comes into play.
-	Through the implementation of UAGD, players with disabilities can benefit from features such as support for alternative input devices, including switches, eye-tracking systems, and mouth-operated controllers, which as a result can drastically enhance the game experience.
-	One of the key aspects is the implementation of settings that allow players to customize the features they need to improve their game experience.
+	\subsubsection{Addressing Diverse Needs}
+	Digital games are getting more demanding in terms of limitations and this is where UAGD comes into play.
+	Through the implementation of UAGD, players with diverse needs can benefit from features such as support for alternative input devices, including switches, eye-tracking systems, and mouth-operated controllers, which as a result can drastically enhance the game experience.
+	By implementing these features, UAGD ensures that games are accessible to players with various disabilities, ensuring that games are enjoyable for a wider audience.
 	
-	We found a promising user-centered approach in the paper \textcite{grammenos_unified_2007} to apply UAGD in the development cycle of games.
+	\subsubsection{Technical Challenges}
+	Implementing UAGD presents several technical challenges including compatibility with different hardware and the scalability of accessibility features.
+	By using a user-centered approach, as presented by \textcite{grammenos_unified_2007}, developers can integrate accessibility into the game development cycle and ensure that technical challenges are considered from the beginning of the project.
 	The basic steps are summarized in \autoref{fig:universal-game-design-approach}, whereas an elaboration of these is provided in \textcite{grammenos_unified_2007}.
 	
 	\begin{figure}[ht]
@@ -250,6 +252,19 @@
 		\caption{Applying UAGD (Source: \textcite{grammenos_unified_2007})}
 		\label{fig:universal-game-design-approach}
 	\end{figure}
+	
+	\subsubsection{Design Compromises}
+	UAGD encourages developers to rethink design approaches, so that all players can enjoy the game they are developing.
+	This includes reimagining game mechanics, levels, and interfaces to ensure everyone gets the best game experience without destroying the games core idea.
+	The key here is to create games which are challenging and fun to play for all the players, regardless of their abilities.
+	
+	\subsubsection{Standardization Efforts}
+	An important aspect of UAGD is to push towards standardizing accessibility features in all games.
+	To achieve that, common guidelines and best practices are needed, so that the gaming industry can create a more standardized approach to accessibility, making it easier for developers to implement these.
+	One key aspect here is to share those approaches and ideas with the software community as well as make the implementations open source.
+	
+	In summary, UAGD is not just about making games playable for players with disabilities.
+	It should redefine how a game is developed and designed, so that the needs of all players are satisfied.
 	
 	\subsection{Assistive haptic feedback}
 	%TODO
