@@ -53,7 +53,6 @@
 	%%
 	%% The abstract is a short summary of the work to be presented in the
 	%% article.
-	%TODO
 	\begin{abstract}
 		The paper focuses on enhancing digital game accessibility for blind players through Universally Accessible Game Design and assistive technologies like haptic feedback and echolocation.
 		It aims to improve game accessibility and experience for blind players by addressing game development challenges for inclusivity.
@@ -79,8 +78,8 @@
 	\maketitle
 	
 	\section{Introduction} \label{sec:introduction}
-	Today's accessible games for blind people are mainly games which are directly developed for them (\textcite{goncalves_my_2023}).
-	While these games are enjoyable, mainstream games are a serious challenge for blind people because they consist of complex environments, mechanics and interactions with \emph{Non-Player Character} (NPC) players or even real players in \emph{Player versus player} (PvP) games.
+	Today's accessible games for blind players are mainly games that are developed directly for them \cite{goncalves_my_2023}.
+	While these games are enjoyable, mainstream games are a serious challenge for blind players because they consist of complex environments, mechanics and interactions with \emph{Non-Player Character} (NPC) players or even real players in \emph{Player versus player} (PvP) games.
 	
 	Implementing accessibility features is much needed in digital games to ensure that everyone, including people with disabilities can enjoy gaming.
 	However, game developers in general face various problems in the process of developing games, some of them are:
@@ -93,10 +92,10 @@
 		\item Standardization
 	\end{itemize}
 	
-	So, the main idea of this paper is to give a broad insight of \emph{Universally Accessible Game Design} (UAGD) which addresses the previously mentioned developing problems.
-	Additionally, this study explores different and innovative accessibility features and tools, including haptic feedback and its ways to improve game experience which is a major technical challenge.
+	So, the main idea of this paper is to give a broad insight into \emph{Universally Accessible Game Design} (UAGD), which addresses the previously mentioned developing problems.
+	Additionally, this study explores different and innovative accessibility features and tools, including haptic feedback and its ways to improve game experience, which is a major technical challenge.
 	
-	This raises following relevant research questions (RQ) that contribute to blind people playing visual-centric digital games:
+	This raises following relevant research questions (RQ) that contribute to blind players playing visual-centric digital games:
 	
 	\begin{itemize}
 		\setlength\itemsep{0.5em}
@@ -106,7 +105,7 @@
 	\end{itemize}
 
 	\subsection{Motivation}
-	One big step forward making mainstream games more accessible for blind people was the game \emph{The Last of Us Part II} (TLOU2) \cite{playstation_last_2020, playstation_last_2020-1}. 
+	One big step forward making mainstream games more accessible for blind players was the game \emph{The Last of Us Part II} (TLOU2) \cite{playstation_last_2020, playstation_last_2020-1}. 
 	According to \textcite{leite_extended_2021} the game company \emph{Naughty Dog} implemented more than 60 accessibility features and is considered as the most accessible game ever produced.
 
 	Additionally, \textcite{dale_last_2024} described that the game can be played all the way through with audio cues and navigation aids.
@@ -122,13 +121,13 @@
 	\end{figure*}
 
 	In the past, video games were not designed with accessibility in mind, which resulted in bad gaming experience for people with disabilities. 
-	However, over time, game companies started to develop and include accessibility features in their games which significantly improved the game experience for disabled players.
+	Over time, however, game companies began to develop and include accessibility features in their games, significantly improving the gaming experience for disabled players.
 	
-	However, there are still many games that have not been developed in a way that everyone can play them.
+	Nevertheless, there are still many games that have not been developed in a way that everyone can play them.
 	With a focus on blind players, this paper aims to find a way to support the development cycle of games as well as explore existing accessibly features and ways to improve them.
 	
 	\section{The Problem} \label{sec:theProblem}
-	Blind players encounter many different barriers when playing visual-centric digital games which often rely mainly on graphical interfaces and visual cues. 
+	Blind players encounter many different barriers when playing visual-centric digital games, which often rely mainly on graphical interfaces and visual cues. 
 	Additionally, games have different perspectives such as top-down, first-person, and third-person views, where all three views give the player unique challenges in navigating within game environments, understanding game objectives and interacting with in-game elements like players or objects.
 	
 	Popular games, such as \emph{The Legend of Zelda} rely mainly on visuals.
@@ -136,7 +135,7 @@
 	
 	As \textcite{goncalves_my_2023} states, players express feelings of frustration, telling their viewers the need for more and better accessibility features, so that everyone including blind players can have a great game experience.
 	
-	Building on that, the authors of \textcite{goncalves_my_2023} have categorized seven themes and identified unresolved barriers (see \autoref{fig:seven-themes}) which still represent a great challenge for both players and developers.
+	Building on that, the authors of \textcite{goncalves_my_2023} have categorized seven themes and identified unresolved barriers (see \autoref{fig:seven-themes}) that still represent a great challenge for both players and developers.
 	
 	\begin{figure*}[ht]
 		\centering
@@ -149,7 +148,7 @@
 	
 	\section{My Idea} \label{sec:myIdea}
 	The gaming industry came a long way from no accessibility features and assistant tools at all to implementing more than 60 accessibility features in one game \cite{playstation_last_2020}.
-	According to research papers \cite{goncalves_my_2023, grammenos_designing_2009, grammenos_game_2008, araujo_mobile_2017} some of the most important accessibility features for blind people in visual-centric games include:
+	According to research papers \cite{goncalves_my_2023, grammenos_designing_2009, grammenos_game_2008, araujo_mobile_2017} some of the most important accessibility features for blind players in visual-centric games include:
 	
 	\begin{itemize}
 		\setlength\itemsep{0.5em}
@@ -164,14 +163,12 @@
     Some of these have already been implemented to a certain extent in some games, but as \autoref{fig:seven-themes} notes, there are still problems.
     Especially when it comes to the environment, pathfinding, perspective and interacting with the world, blind players face major challenges, which according to \textcite{goncalves_my_2023} could mean they stop playing these games because they simply can not find the right way to play.
     
-    To address the environment and pathfinding problems, one new technology was introduced in 2018 by \textcite{andrade_echo-house_2018} to use echolocation to explore a virtual environment which could drastically improve navigation in it.
+    To address the environment and pathfinding problems, one new technology was introduced in 2018 by \textcite{andrade_echo-house_2018} to use echolocation to explore a virtual environment, which could drastically improve navigation in it.
     As for perspective (camera) and interacting with the world, hardware solutions like haptic feedback or \emph{Artificial Intelligence} (AI) tools could be a solution when developed and integrated further.
-    Whereas the haptic feedback \cite{bello_haptics_2016} of for example \emph{PlayStation 5} (PS5) controllers \cite{akyaman_anticipated_2021, chen_gamepad_2024} could indicate the environment they are walking on by adjusting the vibrations.
+    Whereas the haptic feedback \cite{bello_haptics_2016} of, for example \emph{PlayStation 5} (PS5) controllers \cite{akyaman_anticipated_2021, chen_gamepad_2024}, could indicate the environment they are walking on by adjusting the vibrations.
     
     The goal is to find an answer to the research question above by researching the field of UAGD, how to use haptic feedback to improve accessibility features and to find new ways to enhance existing accessibility features and tool in combination with AI.
     Therefore, game developers should use the UAGD as a guide and ensure that all important accessibility features listed above are included in their games.
-    
-    The following section provides a deeper insight into related work that has contributed to the understanding of the importance of accessibility in visual-centric digital games.
 	
 	\section{Related Work} \label{sec:relatedWork}
 	As digital games continue to evolve making them more complex to play, accessibility becomes increasingly more important.
@@ -221,7 +218,7 @@
  	Collected feedback from developers and players through surveys and public discussions indicate that the game raises awareness and educates about accessibility as intended.
  	It was also suggested to include direct access to additional information about each violated guideline, such as how specific accessibility can improve the game experience for disabled players.
  	
- 	The feedback also highlighted to add more levels to cover a wider range of accessibility guidelines which would add the potential to adapt the concept and further improve it as well as to highlight the importance of game design in digital games.
+ 	The feedback also highlighted to add more levels to cover a wider range of accessibility guidelines, which would add the potential to adapt the concept and further improve it as well as to highlight the importance of game design in digital games.
 	
 	\subsection{Navigate a virtual environment using echolocation}
 	In 2018 \textcite{andrade_echo-house_2018} investigates the use of echolocation to help blind players to navigate within a game environment.
@@ -238,9 +235,9 @@
 		\label{fig:echo-house-layout}
 	\end{figure}
 
-	The evaluation consists of a 45-minute playing session and a interview.
+	The evaluation consists of a 45-minute playing session followed by an interview.
 	They found out that the echolocation provided the player with an improved sense of space within the VE.
-	However, challenges in orientation and mobility were still present which indicates the need of further support.
+	However, challenges in orientation and mobility were still present, which indicates the need of further support.
 	
 	The paper highlighted the limitation of the study such as the small sample size and the need for further research to validate their findings.
 	Nevertheless, this work provides an important insight into the possibilities of using echolocation to help blind players.
@@ -248,12 +245,12 @@
 	\section{The Details} \label{sec:theDetails}
 	In this section, we delve into enhancing accessibility in digital games for blind players.
 	Firstly, we aim to explore previously mentioned developing problems in \autoref{sec:introduction}, from diverse needs and technical challenges followed by design compromises and standardization efforts.
-	Secondly, we explore various types of feedback which are essential in enhancing of accessibility in digital games and focus on haptic feedback as well as further possibilities to use that to improve the experience in digital games for blind players.
+	Secondly, we explore various types of feedback, which are essential in enhancing of accessibility in digital games and focus on haptic feedback as well as further possibilities to use that to improve the experience in digital games for blind players.
 	Lastly, we propose enhancements of already existing accessibility features and tools.
 	
 	\subsection{Universally Accessible Game Design} \label{subsec:uagd}
 	In recent years, the awareness of accessible game design has been growing tremendously.
-	According to the \emph{World Health Organization} \cite{world_health_organization_international_2004}, one out of ten persons has disabilities which often results in limitations in hearing, memory, vision or motor functions.
+	According to the \emph{World Health Organization} \cite{world_health_organization_international_2004}, one out of ten persons has disabilities, which often results in limitations in hearing, memory, vision or motor functions.
 	
 	\subsubsection{Addressing Diverse Needs}
 	Digital games are getting more demanding in terms of limitations and this is where UAGD comes into play.
@@ -275,7 +272,7 @@
 		\item Usability and accessibility evaluation
 	\end{itemize}
 	
-	An elaboration of these steps is provided in \textcite{grammenos_unified_2007}
+	An elaboration of these steps is provided in \textcite{grammenos_unified_2007}.
 	
 	\begin{figure}[ht]
 		\centering
@@ -286,8 +283,8 @@
 	
 	\subsubsection{Design Compromises}
 	UAGD encourages developers to rethink design approaches, so that all players can enjoy the game they are developing.
-	This includes reimagining game mechanics, levels, and interfaces to ensure everyone gets the best game experience without destroying the games core idea.
-	The key here is to create games which are challenging and fun to play for all the players, regardless of their abilities.
+	This includes reimagining game mechanics, levels, and interfaces to ensure everyone gets the best game experience without destroying the game's core idea.
+	The key here is to create games that are challenging and fun for all players, regardless of their abilities.
 	
 	\subsubsection{Standardization Efforts}
 	An important aspect of UAGD is to push towards standardizing accessibility features in all games.
@@ -300,7 +297,7 @@
 	\subsection{Assistive haptic feedback} \label{subsec:assistiveHapticFeedback}
 	Assistive haptic feedback gets increasingly more important, especially in the gaming industry \cite{kuber_towards_2007}.
 	In this section we delve into innovative approaches to enhance the gaming experience for blind player through tactile technologies.
-	First we will give an overview of sensory perception which consists of visual (sight), haptic (tactile), and aural (hearing) as shown in \autoref{fig:sensory-perception}.
+	First, we will give an overview of sensory perception which consists of visual (sight), haptic (tactile), and aural (hearing) as shown in \autoref{fig:sensory-perception}.
 	Then we will explore different possibilities to enhance game experience with haptic feedback.
 	
 	\begin{figure}[ht]
@@ -311,11 +308,10 @@
 	\end{figure}
 	
 	\subsubsection{Sensory Perception in Gaming for Blind Players}
-	Gaming experience for blind people primarily rely on non-visual sensory to navigate and interact within the game environment.
-	Visual perception which the player mainly get though sight, is often the primary interaction in most games.
-	However, for blind players, haptic and aural senses are the key.,
+	Visual perception, which the player mainly get though sight, is often the primary interaction in most games.
+	However, for blind players, haptic and aural senses are the key.
 	
-	Haptic feedback is the sense of touch providing a physical response by vibration to the player \cite{chen_gamepad_2024, kuber_towards_2007, bello_haptics_2016}, which represent various actions in a game like drawing a bow or shooting a weapon.
+	Haptic feedback is the sense of touch providing a physical response by vibration to the player \cite{chen_gamepad_2024, kuber_towards_2007, bello_haptics_2016}, which represent various actions in a game like drawing a bowstring or shooting a weapon.
 	For example, a haptic glove could simulate the sensation of raindrops falling on a player's hand or the resistance encountered when pushing against an in-game object.
 	
 	Aural feedback, in the other hand, provides sound to transfer information.
@@ -329,8 +325,8 @@
 	
 	Beyond that, advanced haptic technologies like shape-changing interfaces or dynamic touch surfaces \cite{rasmussen_shape-changing_2012} can simulate more complex interactions.
 	These could include the sensation of touching sand or feel the resistance when drawing a bowstring by using a haptic glove mentioned previously.
-	This feedback technology could also help in navigating within a game environment where pulses could indicate the direction a player has to go.
-	This not only makes games more accessible to blind players but also increase the dimension of immersion for all players.
+	This feedback technology could also help in navigating within a game environment, where pulses could indicate the direction a player has to go.
+	This not only makes games more accessible to blind players, but also increase the dimension of immersion for all players.
 	
 	Considering the impact of standardizing this technology as a guideline within UAGD, making it a straightforward implementation for developers would help the game industry tremendously in terms of accessibility.
 	
@@ -345,19 +341,19 @@
 	\end{itemize}
 
 	\subsubsection{AI-Enhanced Testing and Audio Descriptions}
-	By implementing AI into the cycle of game development, we could significantly improve the accessibility for blind players by integrating AI into the testing phase of the game.
-	After collecting enough data about accessibility, the AI could automate the testing phase, identifying accessibility issues or UAGD guideline violations which are not immediately visible for the developer.
+	By implementing AI into the cycle of game development, we could significantly improve the accessibility for blind players by integrating it into the testing phase of the game.
+	After collecting enough data about accessibility, the AI could automate the testing phase, identifying accessibility issues or UAGD guideline violations that are not immediately visible to the developer.
 	This would ensure that games are designed the right way from the start.
 	
-	Additionally, by letting the AI collect data during game play tests, it could generate real-time audio descriptions of game environments and action which could improve the gaming experience for blind players.
-	The generated descriptions can then customize for the needs of individual players.
+	Additionally, by letting the AI collect data during game play tests, it could generate real-time audio descriptions of game environments and player actions which could improve the gaming experience for blind players.
+	The generated descriptions can then be customized to the needs of individual players.
 	
 	To implement this method, additional research and testing are required.
 	This approach would greatly help developers in designing future games.
 	
 	\subsubsection{Combining AI with Echolocation for Navigation}
 	Combining AI with echolocation technology could assist blind players in navigating within game environments.
-	The AI could interpret the echolocation signals which could be combined with haptic or aural feedback, helping players understand their environment.
+	The AI could interpret the echolocation signals, which could be combined with haptic or aural feedback, helping players understand their environment.
 	For example, a glove or body armor as haptic feedback devices could receive the signals, process them to create a detailed map of the surroundings which provides the player with a much better understanding what is happening.
 	
 	For this technology to be fully realized, further research like \textcite{andrade_echo-house_2018} is required.
@@ -369,10 +365,10 @@
 	This solution aims to improve the needs of blind players in current games.
 	
 	\subsection{Conclusion}
-	Our findings offer answers to the proposed research questions, highlighting how UAGD (RQ1) can improve game development for better accessibility, how advancements in haptic feedback (RQ2) can significantly enhance the gaming experience not only for blind but all players and ways to improve existing accessibility features and tools (RQ3) by using AI.
+	Our findings offer answers to the proposed research questions, highlighting how UAGD (RQ1) can improve game development for better accessibility, how advancements in haptic feedback (RQ2) can significantly enhance the gaming experience for everyone and ways to improve existing accessibility features and tools (RQ3) by using AI.
 	
 	\subsection{Further Work}
-	There are still open challenges such as the full integration of echolocation techniques as well as additional research in using AI in testing phases and audio description generation.
+	There are still open challenges, such as the full integration of echolocation techniques, and further research is needed on the use of AI in test phases and the creation of audio descriptions.
 	Future studies should focus on the echolocation technology for gaming, exploring AI in creating dynamic audio descriptions and identifying missing accessibility features, and developing more haptic feedback systems.
 	
 	Our study opens the door to new opportunities to make digital games and their development a better experience and to ensure that advancements in gaming technology can be enjoyed by everyone, including those with disabilities.
